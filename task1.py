@@ -21,7 +21,8 @@ example:
 Enter the index for an animal:2
 The animal at that index is Dog
 """
-
-
-
-animals =
+animals = ['Cat','Fish','Dog','Bear','Turtle']
+animals.sort()
+a=(input("enter a number: ")).strip()
+a=int(a)
+print('The animal at that index is '+animals[a])
